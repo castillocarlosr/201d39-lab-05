@@ -134,9 +134,22 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 var testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
-
-function multiplyAnyArray(dynamicArray) { //eslint-disable-line
-
+    
+function multiplyAnyArray(funcMulti, a) { //eslint-disable-line
+    var multArr = 1;
+    var dynamicArray = [];
+    for (var k = 0; k < testArray.length; k++){
+        multArr = multArr*testArray[k];
+    }
+    // for (var k = 0; k != a.length; k++){
+    //     dynamicArray[k] = funcMulti(a[k]);
+    // }
+    var funcMulti = function(x){
+        return x*x;
+    }
+    var multiplication = map(funcMulti, testDynamicArray)
+    var summary = 'The numbers ' + dynamicArray + ' have a product of ' + multArr +'.';
+    return [dynamicArray, summary];
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
