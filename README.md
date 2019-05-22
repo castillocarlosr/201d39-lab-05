@@ -1,3 +1,22 @@
+# This Repo is for a class assignment testing code 
+
+The work is broken into 2 parts.
+app.js is where the functions and work is written.
+test.js is provided and run on the terminal(Mac) or Chrome browser to check if the functions written in app.js pass or fail.
+
+## Update/Created
+* Created around Sept. 2018
+* Last update: on README.md May 2019
+
+### Authors
+* **Carlos R. Castillo** - [GitHub](https://github.com/castillocarlosr)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+__________________________________________________________________________________________________
+**************************************************************************************************
 # Assignment Overview: Lab 5
 
 There are two parts to your lab assignment, and each is in a different assignment in Canvas:
